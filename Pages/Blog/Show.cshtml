@@ -1,0 +1,18 @@
+@page
+@model ShowModel
+
+@{
+ViewData["Title"] = @Model.Title;
+}
+
+<!-- Exibe o Título no HTML -->
+<h1>@Model.Title</h1>
+
+<!-- Exibe o Conteúdo no HTML -->
+<p>@Model.Body</p>
+
+<p>
+  <!-- Link para criar um novo Post -->
+  <a asp-page="./Create">Create new Post</a>
+</p>
+
