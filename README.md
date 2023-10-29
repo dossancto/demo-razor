@@ -1,3 +1,5 @@
+# Razor Study
+
 Razor é uma estratégia para desenvolvimento de páginas SSR (Server Side Rendering) onde todo o HTML é processado no lado do servidor e o resultado é retornado. Não permite (por padrão), uso do C# no lado do Cliente ("substituir" o javascript por C#), ao contrário do Blazor.
 
 ## Repositório
